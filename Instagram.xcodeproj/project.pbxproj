@@ -103,6 +103,7 @@
 		AC99D3DD269184FE00F08077 /* PostHeader.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PostHeader.xib; sourceTree = "<group>"; };
 		AC99D3E22691858E00F08077 /* PostHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PostHeader.h; sourceTree = "<group>"; };
 		AC99D3E32691858E00F08077 /* PostHeader.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PostHeader.m; sourceTree = "<group>"; };
+		AC9FE8AA26937AA300B25C65 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		BB4213857CCB28D6AADA3867 /* Pods-Instagram-InstagramUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Instagram-InstagramUITests.release.xcconfig"; path = "Target Support Files/Pods-Instagram-InstagramUITests/Pods-Instagram-InstagramUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -160,6 +161,7 @@
 		AC3C2AE726800F330030F439 = {
 			isa = PBXGroup;
 			children = (
+				AC9FE8AA26937AA300B25C65 /* README.md */,
 				AC3C2AF226800F330030F439 /* Instagram */,
 				AC3C2B0E26800F370030F439 /* InstagramTests */,
 				AC3C2B1926800F370030F439 /* InstagramUITests */,
