@@ -6,6 +6,7 @@
 //
 
 #import "AppDelegate.h"
+#import <Parse/Parse.h>
 
 @interface AppDelegate ()
 
@@ -15,7 +16,20 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+   
+    ParseClientConfiguration *configuration = [ParseClientConfiguration configurationWithBlock:^(id<ParseMutableClientConfiguration> configuration) {
+      configuration.applicationId = @"xXOS963MoL6MVPPs0TfOV148smSnZ2ltGiG59O9n";
+      configuration.clientKey = @"S3zaGD9LeTG5HNrSylRka1cYIAETK1Bno4kUw0Ij";
+      configuration.server = @"https://parseapi.back4app.com/";
+    }];
+    [Parse initializeWithConfiguration:configuration];
+    
+//    if (PFUser.currentUser) {
+//          UIStoryboard *storyboard = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
+//
+//          self.window.rootViewController = [storyboard instantiateViewControllerWithIdentifier:@"HomeNavigation"];
+//      }
+
     return YES;
 }
 

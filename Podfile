@@ -6,6 +6,9 @@ target 'Instagram' do
   use_frameworks!
 
   # Pods for Instagram
+ pod 'Parse'
+  pod 'AFNetworking'
+  pod 'MBProgressHUD'
 
   target 'InstagramTests' do
     inherit! :search_paths
